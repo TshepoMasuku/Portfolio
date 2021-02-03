@@ -1,0 +1,117 @@
+{
+  "main": {
+    "name": "Tshepo Masuku",
+    "occupation": "CEO of enerKi Crystal",
+    "description": "I eat, sleep and breathe Web Development.",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Tshepo!. I've been coding for the past year now as a Web Developer................",
+    "contactmessage": "Get in touch with me, I would really love working for you!",
+    "email": "tshepomasuku16@gmail.com",
+    "phone": "+27 812585187",
+    "address": {
+      "street": "7852 Pistonyane Str.",
+      "city": "Johannesburg",
+      "state": "Gauteng",
+      "zip": "1804"
+    },
+    "website": "https://tshepomasuku.github.io/",
+    "resumedownload": "https://tshepomasuku.github.io/",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/ener.ki.1/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tshepo-masuku-97972b196",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/ener.ki/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/TshepoMasuku",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "University of Life - RSA",
+        "degree": "Bachelor's Degree, Hustling",
+        "graduated": "November 2019",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": "enerKi Crystal",
+        "title": "Founder and CEO",
+        "years": "November 2019 - Present",
+        "description": "Creating Digital Solutions to Empower and Nourish lifes."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "40%"
+      },
+      {
+        "name": "Python",
+        "level": "55%"
+      },
+      {
+        "name": "Git",
+        "level": "30%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "55%"
+      },
+      {
+        "name": "Web Development",
+        "level": "55%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Snapchat Clone (React JS)",
+        "category": "",
+        "image": "snapchat.jpg",
+        "url": "https://youtu.be/1kGISk5ft2w"
+      },
+      {
+        "title": "Gmail Clone (React JS)",
+        "category": "",
+        "image": "gmail.jpg",
+        "url": "https://youtu.be/b7nrXjS6Dqs"
+      },
+      {
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.jpg",
+        "url": "https://youtu.be/QaYts9sPmcY"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Client #1 testimonial text",
+        "user": "Client #1: Name Surname"
+      },
+      {
+        "text": "Client #2 testimonial text",
+        "user": "Client #2: Name Surname"
+      }
+    ]
+  }
+}
