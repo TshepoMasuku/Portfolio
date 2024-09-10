@@ -1,0 +1,28 @@
+.pgNotFoundContainer {
+    height: 90vh;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.pgNotFound {
+    height: 50%;
+    width: 50%;
+    background-color: #00d0ffd4;
+    border-radius: 16px;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.3);
+    margin: auto; 
+    margin-block: 16px;
+    padding-block: 16px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+span {
+    font-size: 155px;
+}

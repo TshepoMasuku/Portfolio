@@ -1,0 +1,19 @@
+.footer {
+    height: fit-content;
+    width: auto;
+    padding: 1.5rem;
+}
+.footer__text {
+    text-align: center;
+}
+.footer__contactme {
+    width: 30%;
+    margin: 0.75rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.icon {
+    height: 48px;
+    width: 48px;
+}

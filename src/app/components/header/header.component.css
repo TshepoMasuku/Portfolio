@@ -1,0 +1,26 @@
+header {
+    height: 100px; 
+    width: auto;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 100%;
+    width: 40vw;
+    margin: 0.5rem 1rem;
+}
+.logo__image {
+    height: 100%;
+    width: 200px;
+}
+
+nav {
+    height:100%; 
+    width: 60vw;
+    margin: 0.5rem;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}

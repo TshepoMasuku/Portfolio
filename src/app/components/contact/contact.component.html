@@ -1,1 +1,21 @@
-<p>contact works!</p>
+<app-header></app-header>
+
+<div class="emailFormContainer">
+    <form>
+        <h2>Send me a message</h2>
+        <label>Name*</label>
+        <input type="text" name="name" id="name" class="emailForm__input" required>
+        
+        <label>Email Address*</label> 
+        <input type="email" name="email" id="email" class="emailForm__input" required> 
+        
+        <label>Your Message or Query*</label> 
+        <textarea name="message" id="message" required></textarea>
+        
+        <div class="emailForm__btnContainer">
+            <button class="emailForm__button">Submit</button> 
+        </div>
+    </form>
+</div>
+
+<app-footer></app-footer>
