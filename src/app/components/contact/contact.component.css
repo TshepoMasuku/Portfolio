@@ -10,6 +10,7 @@
 }
 
 form {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -18,32 +19,62 @@ form h2 {
     font-size: 2.5rem;
 }
 
-label {
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
+.form-row {
+    height: 2rem; 
+    width: 90%;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+    background-color: white;
     display: flex;
-    flex-direction: column;
 }
 
-.emailForm__input {
-    height: 1.5rem; 
-    width: 50vw;
-    padding: 1rem;
-    margin: 0.5rem 0;
-    border-radius: 0.5rem;
-    border: 2px solid black;
+.formLabelContainer {
+    height: 100%;
+    width: 30%;
+}
+.form__label {
+    height: 100%;
+    width: 100%;
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-color: #3a7bd5dc;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.formInputContainer {
+    height: 100%;
+    width: 70%;
+}
+.form__input {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border: 1px solid white;
+}
+
+.form__messageContainer {
+    height: 15rem; 
+    width: 90%;
+    margin: 0.5rem auto;
 }
 
 textarea {
-    height: 15rem;
-    width: 50vw;
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
     padding: 1rem;
     margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
-    border: 2px solid black;
+    border-radius: 0 0 0.5rem 0.5rem;
+    border: 1px solid white;
 }
 
 .emailForm__btnContainer {
+    height: 3rem; 
+    width: 90%;
+    margin: 0.5rem auto;
     display: flex;
     justify-content: center;
 }
@@ -63,4 +94,41 @@ textarea {
     scale: 0.9;
     color: white;
     background-color: #3a7bd5dc;
+}
+
+@media only screen and (max-width: 767.99px) {
+    .emailFormContainer {
+        max-width: 75%;
+    }
+    .form__label {
+        font-size: 1rem;
+    }
+    textarea {
+        padding: 0.25rem;
+    }
+    .emailForm__button {
+        height: 2.5rem;
+        width: 50%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 499.99px) {
+    .emailFormContainer {
+        max-width: 90%;
+    }
+    form h2 {
+        font-size: 1.75rem;
+    }
+    .form-row {
+        height: 1.25rem;
+    }
+    .form__label {
+        padding-right: 0.25rem;
+        font-size: 0.6rem;
+    }
+    .emailForm__button {
+        height: 2.5rem;
+        width: 100%;
+        padding: 0;
+    }
 }

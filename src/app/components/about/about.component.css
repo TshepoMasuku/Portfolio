@@ -5,28 +5,29 @@
 }
 
 .aboutInfo {
+    max-width: 800px;
+    margin-inline: auto;
     display: flex;
 }
 
 .aboutInfo__imageContainer {
     height: 100%;
-    width: 35%;
-    padding: 1rem;
-    display: flex;
-    justify-content: flex-end;
+    width: 30%;
+    margin: auto 1rem;
 }
 .aboutInfo__image {
-    height: 250px;
-    width: 250px;
-    border: gold 2px solid;
-    border-radius: 16px;
-}
-.aboutInfo__text {
     height: 100%;
-    width: 55%;
+    width: 100%;
+    border: 2px solid gold;
+    border-radius: 1rem;
+}
+
+.aboutInfo__textContainer {
+    height: 100%;
+    width: 60%;
     padding: 2rem;
 }
-.aboutInfo__text p {
+.aboutInfo__textContainer p {
     margin: 0.5rem 0;
 }
 
@@ -90,42 +91,80 @@
 
 .techStackBar {
     height: 40px;
-    width: 100%;
-    margin-block: 0.5rem;
+    width: 90%;
+    margin: 0.5rem auto;
     border-radius: 0.5rem;
     border: 2px solid #3a7bd5dc;
     background-color: #5280d0;
     display: flex;
 }
 
-.techStackBar__name {
+.techStackBar__nameContainer {
     height: 100%;
     width: 20%;
+    border-radius: 0.5rem;
+}
+.techStackBar__name {
+    height: 100%;
+    margin-right: 0.5rem;
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
 .techStackBar__progressContainer {
     height: 100%;
     width: 80%;
     border-radius: 0.5rem;
 }
+.techStackBar__progress {
+    height: 100%;
+    background-color: #1b1d5e;
+    border-radius: 0.5rem;
+}
 
-.techStackBar__progress-80 {
+.progress-80 {
     width: 80%;
-    height: 100%;
-    background-color: #1b1d5e;
-    border-radius: 0.5rem;
 }
-.techStackBar__progress-60 {
+.progress-70 {
+    width: 70%;
+}
+.progress-60 {
     width: 60%;
-    height: 100%;
-    background-color: #1b1d5e;
-    border-radius: 0.5rem;
 }
-.techStackBar__progress-50 {
+.progress-50 {
     width: 50%;
-    height: 100%;
-    background-color: #1b1d5e;
-    border-radius: 0.5rem;
+}
+
+
+@media only screen and (max-width: 767.99px) {
+    .eeddiitt {
+        width: 40%;
+        margin: 0.5rem auto;
+    }
+}
+@media only screen and (max-width: 555.99px) {
+    .aboutInfo {
+        flex-direction: column;
+    }
+    .aboutInfo__imageContainer {
+        height: 100%;
+        width: 100%;
+        margin: 0.5rem 0;
+        display: flex;
+        justify-content: center;
+    }
+    .aboutInfo__image {
+        width: 60%;
+    }
+    .aboutInfo__textContainer {
+        height: 100%;
+        width: 100%;
+        padding: 1.25rem;
+    }
+    .aboutInfo__textContainer p:first-child {
+        text-align: center;
+    }
 }

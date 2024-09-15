@@ -3,14 +3,27 @@
 <div class="emailFormContainer">
     <form>
         <h2>Send me a message</h2>
-        <label>Name*</label>
-        <input type="text" name="name" id="name" class="emailForm__input" required>
+        <div class="form-row">
+            <div class="formLabelContainer">
+                <label class="form__label">Name</label>
+            </div>
+            <div class="formInputContainer">
+                <input type="text" class="form__input" required>
+            </div>
+        </div>
         
-        <label>Email Address*</label> 
-        <input type="email" name="email" id="email" class="emailForm__input" required> 
-        
-        <label>Your Message or Query*</label> 
-        <textarea name="message" id="message" required></textarea>
+        <div class="form-row">
+            <div class="formLabelContainer">
+                <label class="form__label">Email Address</label>
+            </div>
+            <div class="formInputContainer">
+                <input type="email" class="form__input" required>
+            </div>
+        </div>
+
+        <div class="form__messageContainer">
+            <textarea placeholder="You can type your Message or Query here." required></textarea>
+        </div>
         
         <div class="emailForm__btnContainer">
             <button class="emailForm__button">Submit</button> 
