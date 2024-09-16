@@ -1,6 +1,8 @@
 # Portfolio
 
+This is the [Portfolio website of Tshepo Masuku](https://portfolio-ochre-psi-89.vercel.app).
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+I also used HTML and CSS only to create and style my Templates.
 
 ## Development server
 

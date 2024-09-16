@@ -6,9 +6,9 @@
 }
 
 body {
-    background: #00d2ff; 
-    background: -webkit-linear-gradient(to top,#3a7bd5dc, #00d0ffd4); 
-    background: linear-gradient(to top, #3a7bd5dc, #00d0ffd4);
+    background: #00d0ffd4; 
+    background: -webkit-linear-gradient(to top,#3a7bd5d4, #00d0ff45);
+    background: linear-gradient(to top, #3a7bd5d4, #00d0ff45);
 }
 
 a {

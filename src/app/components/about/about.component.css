@@ -81,16 +81,15 @@
 }
 
 .techStack {
-    max-width: 800px;
+    max-width: 750px;
     padding: 1rem;
-    margin-inline: 10rem;
     margin-inline: auto;
     border-radius: 8px;
     box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.8);
 }
 
 .techStackBar {
-    height: 40px;
+    height: 2.5rem;
     width: 90%;
     margin: 0.5rem auto;
     border-radius: 0.5rem;
@@ -138,14 +137,38 @@
     width: 50%;
 }
 
-
 @media only screen and (max-width: 767.99px) {
-    .eeddiitt {
-        width: 40%;
-        margin: 0.5rem auto;
+    .techStack {
+        width: 80%;
+    }
+    .techStackBar__progressContainer {
+        width: 65%;
+    }
+    .techStackBar__nameContainer {
+        width: 35%;
     }
 }
-@media only screen and (max-width: 555.99px) {
+
+@media only screen and (max-width: 599.99px) {
+    /* ABOUT -> TECH STACK */
+    .techStack {
+        width: 95%;
+        padding: 0 0 0.5rem 0;
+    }
+    .techStackBar {
+        height: 2rem;
+        width: 95%;
+    }
+    .techStackBar__progressContainer {
+        width: 70%;
+    }
+    .techStackBar__nameContainer {
+        width: 30%;
+    }
+    .techStackBar__name {
+        font-size: 1rem;
+    }
+    /* ABOUT -> INFO */
     .aboutInfo {
         flex-direction: column;
     }
